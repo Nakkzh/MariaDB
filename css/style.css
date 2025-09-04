@@ -27,7 +27,7 @@ body {
   padding: 1em;
   border-radius: 9px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  width: 120px;
+  width: 130px;
   font-size: 20px !important;
   filter: drop-shadow(0 0 10px #d13131);
 }
