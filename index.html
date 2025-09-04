@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MySQL</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>  
+ <h1 id="logo"> GUIA MARIADB</h1>
+
+ <nav class="menu-lateral">
+    <ul>
+      <li><a href="#ddl">Comandos DDL</a></li>
+      <li><a href="#dml">Comandos DML</a></li>
+      <li><a href="#filtros">Cláusulas de Filtro</a></li>
+      <li><a href="#consultas">Consultas e Relacionamentos</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div id="ddl" class="card">
+     <h2>Comandos DDL (Data Definition Language)</h2>
+      <p><strong>CREATE DATABASE</strong><br>
+      Cria um novo banco de dados no sistema.</p>
+  
+      <p><strong>USE</strong><br>
+      Define qual banco de dados será utilizado nas próximas operações.</p>
+  
+      <p><strong>CREATE TABLE</strong><br>
+      Cria uma nova tabela com colunas e tipos de dados definidos.</p>
+  
+      <p><strong>ALTER TABLE</strong><br>
+      Modifica a estrutura de uma tabela existente, como adicionar ou remover colunas.</p>
+  
+      <p><strong>DROP COLUMN</strong><br>
+      Exclui uma coluna específica de uma tabela.</p>
+  
+      <p><strong>DESCRIBE / DESC</strong><br>
+      Exibe a estrutura de uma tabela, incluindo nomes de colunas, tipos e restrições.</p>
+    </div>
+  
+    <div id="dml" class="card">
+      <h2>Comandos DML (Data Manipulation Language)</h2>
+      <p><strong>INSERT INTO</strong><br>
+      Insere novos registros em uma tabela.</p>
+  
+      <p><strong>UPDATE</strong><br>
+      Altera os dados de registros existentes em uma tabela.</p>
+  
+      <p><strong>DELETE FROM</strong><br>
+      Remove registros de uma tabela com base em uma condição.</p>
+    </div>
+  
+    <div id="filtros" class="card">
+      <h2>Cláusulas de Filtro</h2>
+      <p><strong>WHERE</strong><br>
+      Define uma condição para selecionar ou modificar registros.</p>
+  
+      <p><strong>AND</strong><br>
+      Combina múltiplas condições em uma cláusula WHERE.</p>
+  
+      <p><strong>LIKE</strong><br>
+      Realiza buscas por padrões em valores de texto.</p>
+    </div>
+  
+    <div id="consultas" class="card">
+      <h2>Consultas e Relacionamentos</h2>
+      <p><strong>SELECT</strong><br>
+      Recupera dados de uma ou mais colunas de uma tabela.</p>
+  
+      <p><strong>JOIN</strong><br>
+      Relaciona dados entre duas ou mais tabelas com base em uma chave comum.</p>
+    </div>
+  </div>
+  
+</body>
+</html>
